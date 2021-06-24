@@ -57,3 +57,5 @@ jobs:
       - name: Maven deploy
         if: ${{ endsWith(env.PROJECT_VERSION, '-SNAPSHOT') }}
         run: mvn deploy -s .travis.maven.settings.xml -DskipTests -B
+
+
