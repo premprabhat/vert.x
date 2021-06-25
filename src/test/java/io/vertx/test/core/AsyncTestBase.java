@@ -595,7 +595,7 @@ public class AsyncTestBase {
   }
 
   protected void awaitLatch(CountDownLatch latch) throws InterruptedException {
-    awaitLatch(latch, 10, TimeUnit.SECONDS);
+    awaitLatch(latch, 25, TimeUnit.SECONDS);
   }
 
   protected void awaitLatch(CountDownLatch latch, long timeout, TimeUnit unit) throws InterruptedException {
